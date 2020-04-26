@@ -23,5 +23,3 @@ Update GitHub profile with pinned repositories featuring project 1 and two exemp
 
 Updated resume
 
-
-Updated LinkedIn profile
