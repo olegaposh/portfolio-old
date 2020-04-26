@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 html, body {
 
     height: 100%;
@@ -37,4 +41,8 @@ background: url(./Assets/theroad.jpg) no-repeat center center fixed;
 background-size: cover;
 }
 
+h2 {
 
+font-family: 'Righteous', cursive;
+
+}
