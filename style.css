@@ -1,10 +1,40 @@
+html, body {
 
-
-html body {
-
-    background: #003973;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    width: 100%;
     
 }
+
+.navbar {
+
+    padding:  .8rem;
+    background-color: #000B0B;
+}
+
+.navbar-nav li {
+
+    padding-right: 20px;
+}
+
+.nav-link {
+
+    font-size: 1.2em;
+}
+
+.welcome {
+    border-bottom: 2px solid #b4b4b4;
+    padding: 1em;
+}
+
+.home {
+     
+color: white;
+height: 100%;
+background: url(./Assets/theroad.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 

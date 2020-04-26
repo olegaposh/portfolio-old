@@ -5,99 +5,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.slim.js"
+      integrity="sha256-sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H+Y5NlmqOUE="   crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="./index.html">Alex Poshivailo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html" <h1>Alex Posh</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
 
-
-      </ul>
-
+      </div>
     </div>
   </nav>
 
 
-  <div class="container">
+<div class="container p-3">
+<div class= "row welcome text-center">
+  <div class="col-12">
+    <h1 class="display-4">Projects</h1>
+  </div>
+  
+</div>
+</div>
 
 
-    <div class="row">
-      <!-- left space -->
-      <div class="col-md"></div>
 
-      <!-- middle space -->
-      <div class="col-md">
+<!-- Portfolio-->
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./couch.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First Project</h5>
-                
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second Project</h5>
-                
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="./yin-yang.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third Project</h5>
-                
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="./yin-yang.jpg" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+<div class = "container">
+<div class = "row text-center">
 
+  <div class="col-md-4">
+    <div class="card">
+      <img class="card-img-top" src="./Assets/blur-cars.jpg">
+      <div class="card-body">
+        <h3 class = "card-title">Weather</h3>
+        <p class="card-text">
+          Website showing current weather and 5-day forecast.
+        </p>
+        <a href="https://olegaposh.github.io/homework_week6/" class="btn btn-outline-secondary">Click here</a>
       </div>
-      <!-- right space -->
-      <div class="col-md"></div>
-
     </div>
+</div>
 
-
+<div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="./Assets/glasses.jpg">
+    <div class="card-body">
+      <h3 class = "card-title">Cinema Spirits</h3>
+      <p class="card-text">
+        Website showing current weather and 5-day forecast.
+      </p>
+      <a href="https://olegaposh.github.io/Cinema-Spirits/" class="btn btn-outline-secondary">Click here</a>
+    </div>
   </div>
+</div>
 
+<div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="./Assets/notebook.jpg">
+    <div class="card-body">
+      <h3 class = "card-title">Day Planner</h3>
+      <p class="card-text">
+        Website showing current weather and 5-day forecast.
+      </p>
+      <a href="https://olegaposh.github.io/homework_week5/" class="btn btn-outline-secondary">Click here</a>
+    </div>
   </div>
+</div>
+
+</div>
+</div>
+
+
 
 
 </body>
