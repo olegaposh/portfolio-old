@@ -46,3 +46,76 @@ h2 {
 font-family: 'Righteous', cursive;
 
 }
+
+.mdi {
+
+height:1rem;
+font-size: 3.75em;
+color: white;
+}
+
+p, h1 {
+    color: white;
+}
+
+body {
+    background: #333;
+}
+
+#alex {
+
+    width: 50%;
+    border-radius: 50%;
+}
+
+* {
+    list-style: none;
+    padding: 0;
+}
+
+.skills {
+    width: 500px;
+    margin: 60px auto;
+    color:white;
+}
+.skills li {
+
+    margin: 20px 0;
+}
+.bar {
+    
+    background: #353b48 !important;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3 !important;
+}
+.bar span {
+    height: 2px;
+    float: left;
+    background: #2187e7 !important;
+}
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+.css {
+    width: 90%;
+    animation: css 2s;
+}
+.jquery {
+    width: 70%;
+}
+.javascript {
+    width: 60%;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
