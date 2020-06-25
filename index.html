@@ -6,11 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.5.0.slim.js"
-  integrity="sha256-sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H+Y5NlmqOUE="
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.slim.js"
+      integrity="sha256-sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H+Y5NlmqOUE="   crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <link href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" media="all"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -19,12 +24,12 @@
   <nav class="navbar navbar-expand-md navbar-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="./index.html" <h1>Alex Poshivailo</h1></a>
-      <a href= "https://github.com/olegaposh">
+      <a href="https://github.com/olegaposh">
         <img src="./Assets/github.png"></a>
-        <a href= "https://www.linkedin.com/in/alex-poshivailo-330689126/"class="p-1">
-          <img id="linked-in" src="./Assets/link.png"></a>
-          <a href= "./Assets/Resume.pdf">
-            <img id="linked-in" src="./Assets/resume.jpg"></a>
+      <a href="https://www.linkedin.com/in/alex-poshivailo-330689126/" class="p-1">
+        <img id="linked-in" src="./Assets/link.png"></a>
+      <a href="./Assets/Resume.pdf">
+        <img id="linked-in" src="./Assets/resume.jpg"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,7 +39,7 @@
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
@@ -46,18 +51,135 @@
   </nav>
 
 
-  
-<div class="home">
 
-  <div class="row h-100 align-items-center">
-    <div class="col text-center">
-    
-    <h2>Tomorrow may bring uncertainty,<br> but reliable web solutions will always be at your side.</h2>
+  <div class="home">
+
+    <div class="row h-100 align-items-center">
+      <div class="col text-center">
+
+        <h2>Tomorrow may bring uncertainty,<br> but reliable web solutions will always be at your side.</h2>
+      </div>
+    </div>
+
+
   </div>
-</div>
+
+  <div class="container">
+
+    <div class="row text-center p-5">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="mdi mdi-speedometer"></i>
+        <h1>Fast</h1>
+        <p>Fast load times and lag free interactions.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="mdi mdi-cellphone-link"></i>
+        <h1>Responsive</h1>
+        <p>My layouts will work on any device, big or small.</p>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <i class="mdi mdi-rocket"></i>
+        <h1>Dynamic</h1>
+        <p>Websites don't have to be static. I slove making pages come to life.</p>
+      </div>
+    </div>
+    <!-- picture and bio  -->
+    <div class="row p-3 m-3">
+      <div class="col-md">
+        <img class="mt-5" id="alex" src="./Assets/alex.png">
+        <p class="pt-5 pr-5"><i>Hello, my name is Alex! I'm mostly from Arizona but Russia originally. 
+          I double-majored in CIS and Management because my interests are in technology and business.
+          I've learned the business side coming from a finance background but I've always had a bigger passion
+          for technology. I've recently completed a full-stack web development Bootcamp and super excited to enter
+          the web development space. Let's build something together!
+        </i></p>
+      </div>
+      <!-- skills -->
+      <div class="col-md">
+        <div class="skills">
+          <h1 class="text-center">SKILLS</h1>
+          <br>
+          <li>
+            <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+          </li>
+          <li>
+            <h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+          </li>
+          <li>
+            <h3>BOOTSTRAP</h3><span class="bar"><span class="bootstrap"></span></span>
+          </li>
+          <li>
+            <h3>NODEJS</h3><span class="bar"><span class="nodejs"></span></span>
+          </li>
+          <li>
+            <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
+          </li>
+          <li>
+            <h3>MONGODB</h3><span class="bar"><span class="mongodb"></span></span>
+          </li>
+          <li>
+            <h3>REACT</h3><span class="bar"><span class="react"></span></span>
+          </li>
+          <li>
+            <h3>SQL</h3><span class="bar"><span class="sql"></span></span>
+          </li>
+        </div>
 
 
-</div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Portfolio-->
+
+  <div id="portfolio" class="container">
+    <div class="row text-center">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="./Assets/blur-cars.jpg">
+          <div class="card-body">
+            <h3 class="card-title">Weather</h3>
+            <p class="card-text">
+              Website showing current weather and 5-day forecast.
+            </p>
+            <a href="https://olegaposh.github.io/weather_dashboard/" class="btn btn-outline-secondary">Click here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="./Assets/glasses.jpg">
+          <div class="card-body">
+            <h3 class="card-title">Cinema Spirits</h3>
+            <p class="card-text">
+              Website showing current weather and 5-day forecast.
+            </p>
+            <a href="https://olegaposh.github.io/Cinema-Spirits/" class="btn btn-outline-secondary">Click here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="./Assets/notebook.jpg">
+          <div class="card-body">
+            <h3 class="card-title">Day Planner</h3>
+            <p class="card-text">
+              Website showing current weather and 5-day forecast.
+            </p>
+            <a href="https://olegaposh.github.io/homework_week5/" class="btn btn-outline-secondary">Click here</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
 
