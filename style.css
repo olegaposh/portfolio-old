@@ -69,6 +69,9 @@ body {
     max-height: 400px;
     border-radius: 60%;
 }
+h3 {
+    font-size: 1rem;
+}
 
 * {
     list-style: none;
