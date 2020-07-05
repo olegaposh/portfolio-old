@@ -1,6 +1,6 @@
 
 const FILES_TO_CACHE = [
-
+// test
     './index.html',
     './contact.html',
     './style.css',
