@@ -1,6 +1,6 @@
 {
-    "name": "Alex's Portfolio",
-    "short_name": "Alex's Portfolio",
+    "name": "portfolio",
+    "short_name": "portfolio",
     "icons": [{
       "src": "/Assets/icons/72.png",
       "sizes": "72x72",
@@ -20,7 +20,7 @@
     }, {
       "src": "/Assets/icons/144.jpeg",
       "sizes": "144x144",
-      "type": "image/png"
+      "type": "image/jpeg"
     }, {
       "src": "/Assets/icons/180.png",
       "sizes": "180x180",
