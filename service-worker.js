@@ -4,6 +4,7 @@ const FILES_TO_CACHE = [
     '/index.html',
     '/contact.html',
     '/style.css',
+    '/manifest.webmanifest',
     '/Assets/alex.png',
     '/Assets/blur-cars.jpg',
     '/Assets/cost-tracker.jpg',
