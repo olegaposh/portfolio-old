@@ -1,6 +1,6 @@
 
 const FILES_TO_CACHE = [
-    '/',
+
     '/index.html',
     '/contact.html',
     '/style.css',
@@ -14,7 +14,7 @@ const FILES_TO_CACHE = [
     '/Assets/resume.jpg',
     '/Assets/Resume.pdf',
     '/Assets/theroad.jpg',
-    '/Assets/icons/72.png',
+    '/Assets/icons/test72.png',
     '/Assets/icons/96.png',
     '/Assets/icons/120.png',
     '/Assets/icons/128.png',
