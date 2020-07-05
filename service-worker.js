@@ -24,7 +24,7 @@ const FILES_TO_CACHE = [
     '/Assets/icons/180.png',
     '/Assets/icons/192.png',
     '/Assets/icons/384.png',
-    '/Assets/icons/512.png',
+    '/Assets/icons/512.png'
   ];
 
 // CODELAB: Update cache names any time any of the cached files change.
