@@ -60,7 +60,7 @@ p, h1 {
 
 
 body {
-    background: #212529;
+    background: #000B0B;
 }
 
 #alex {
@@ -72,10 +72,7 @@ body {
 h3 {
     font-size: 1rem;
 }
-/* .bio {
-    text-align: center;
-    max-width: 80%;
-} */
+
 
 * {
     list-style: none;

@@ -4,6 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000B0B">
+  <!-- CODELAB: Add iOS meta tags and icons -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Portfolio PWA">
+<link rel="apple-touch-icon" href="/Assets/icons/152.png">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.5.0.slim.js"
@@ -16,6 +22,7 @@
   <link href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" media="all"
     rel="stylesheet" />
   <link rel="stylesheet" href="./style.css">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body>
@@ -31,6 +38,7 @@
         <img id="linked-in" src="./Assets/link.png"></a>
       <a href="./Assets/Resume.pdf">
         <img id="linked-in" src="./Assets/resume.jpg"></a>
+      
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button> -->
@@ -88,7 +96,7 @@
     <div class="row">
 <!-- left column -->
     <!-- picture-->
-      <div class="col-md-6 col-xs-12 p-3 text-center">
+      <div class="col-md-6 col-xs-12 text-center">
         <img class="mt-5" id="alex" src="./Assets/alex.png">
         <!-- bio -->
         <p class="pt-5 pr-5 bio text-center"><i>Hello, my name is Alex! I'm mostly from Arizona but Russia originally.
@@ -172,13 +180,23 @@
     </a>
     <a href="https://drive.google.com/file/d/19kfTMwu4aMieNpZM1Uya59m9noV9lR1d/view">
       <div class="flexbox-item">
-        <img class="card-img-top" src="./Assets/lol.png">
+        <img class="card-img-top" src="./Assets/employee.png">
         <h3 class="text-center p-4">Employee Management System</h3>
       </div>
     </a>
   </div>
 
-
+<script>
+  // CODELAB: Register service worker.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then((reg) => {
+          console.log('Service worker registered.', reg);
+        });
+  });
+}
+</script>
 
 
 </body>
