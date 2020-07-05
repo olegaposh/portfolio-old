@@ -2,7 +2,7 @@
     "name": "Alex's Portfolio",
     "short_name": "Alex's Portfolio",
     "icons": [{
-      "src": "/Assets/icons/test72.png",
+      "src": "/Assets/icons/72.png",
       "sizes": "72x72",
       "type": "image/png"
     }, {
