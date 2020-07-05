@@ -19,7 +19,7 @@ const FILES_TO_CACHE = [
     '/Assets/icons/96.png',
     '/Assets/icons/120.png',
     '/Assets/icons/128.png',
-    '/Assets/icons/144.png',
+    '/Assets/icons/144.jpeg',
     '/Assets/icons/152.png',
     '/Assets/icons/180.png',
     '/Assets/icons/192.png',
